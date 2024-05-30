@@ -1,19 +1,19 @@
-This is a Kotlin Multiplatform project targeting Web.
+# Portfolio Personal con Kotlin Multiplatform (KMP)
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+¡Bienvenido a mi portfolio personal! Este proyecto ha sido desarrollado utilizando Kotlin Multiplatform (KMP), aprovechando al 100% el lenguaje Kotlin para crear una web responsiva que muestre mis habilidades, proyectos y experiencia profesional.
 
+## Descripción
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+Este proyecto es un portfolio personal diseñado para ser visualmente atractivo y funcional en cualquier dispositivo gracias a su diseño responsivo. Utilizando Kotlin Multiplatform, he logrado compartir lógica de negocio entre las plataformas web y móvil, garantizando una experiencia de usuario consistente.
 
-**Note:** Compose/Web is Experimental and may be changed at any time. Use it only for evaluation purposes.
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+## Características
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+- **Responsive Design**: Adaptable a diferentes tamaños de pantalla y dispositivos.
+- **100% Kotlin**: Implementación completa en Kotlin, utilizando sus características multiplataforma.
+- **Despliegue rápido**: Fácil de configurar y desplegar.
+- **Código limpio y mantenible**: Estructura clara y organizada del proyecto.
+
+## Tecnologías Utilizadas
+
+- **Kotlin Multiplatform (KMP)**: Para compartir código entre plataformas.
+- **HTML5 y CSS3**: Para la estructura y estilo del sitio web.
